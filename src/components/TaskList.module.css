@@ -1,0 +1,17 @@
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 853px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  width: 100%;
+  gap: 20px;
+}

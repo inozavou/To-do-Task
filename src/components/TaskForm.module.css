@@ -1,0 +1,135 @@
+.formContainer {
+  position: absolute;
+  top: 240px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  background-color: #25362e;
+  color: #ffffff;
+  padding: 20px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.bottomTaskElements {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.priorityContainer {
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.dueDateContainer {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: start;
+}
+
+.submitBtn {
+  display: flex;
+  height: 30px;
+  background-color: #f0b028;
+  color: #ffffff;
+  border: none;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+}
+
+.disabledBtn {
+  display: flex;
+  height: 30px;
+  background-color: #8b8b8b;
+  color: #b8b8b8;
+  border: none;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+}
+.removeBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-end;
+  background-color: #f0b028;
+  color: #ffffff;
+  border: none;
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 10px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+.title {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 300px;
+  padding: 5px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+textArea {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  height: 70px;
+  width: 300px;
+  padding: 5px;
+}
+
+textarea:focus,
+.title:focus,
+.date:focus,
+select:focus {
+  outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgb(150, 150, 150);
+  font-family: "Quicksand", sans-serif;
+  font-size: 10px;
+  font-style: italic;
+}
+
+select,
+.date {
+  background-color: #f0b028;
+  color: #ffffff;
+  border: none;
+  border-radius: 30px;
+  padding: 5px;
+  font-weight: 400;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.date {
+  font-family: "Quicksand", sans-serif;
+}

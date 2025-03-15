@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "taskName": "Finish React project",
+    "taskDescription": "Complete the to-do list app with context and reducers",
+    "priority": "high",
+    "dueDate": "2025-03-15",
+    "isChecked": "true",
+    "icon": "💻"
+  },
+  {
+    "id": 2,
+    "taskName": "Grocery shopping",
+    "taskDescription": "Buy fruits, vegetables, and snacks",
+    "priority": "medium",
+    "dueDate": "2025-03-13",
+    "isChecked": "true",
+    "icon": "🛒"
+  },
+  {
+    "id": 3,
+    "taskName": "Workout",
+    "taskDescription": "Do a 45-minute cardio session",
+    "priority": "low",
+    "dueDate": "2025-03-12",
+    "isChecked": "false",
+    "icon": "🏋️"
+  },
+  {
+    "id": 4,
+    "taskName": "Prepare for meeting",
+    "taskDescription": "Gather reports and create presentation slides",
+    "priority": "high",
+    "dueDate": "2025-03-14",
+    "isChecked": "true",
+    "icon": "📊"
+  },
+  {
+    "id": 5,
+    "taskName": "Call plumber",
+    "taskDescription": "Fix the kitchen sink leak",
+    "priority": "medium",
+    "dueDate": "2025-03-16",
+    "isChecked": "true",
+    "icon": "🛠️"
+  },
+  {
+    "id": 6,
+    "taskName": "Read a book",
+    "taskDescription": "Finish reading 'Atomic Habits'",
+    "priority": "low",
+    "dueDate": "2025-03-20",
+    "isChecked": "false",
+    "icon": "📚"
+  }
+]
