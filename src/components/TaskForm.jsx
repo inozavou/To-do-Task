@@ -27,35 +27,31 @@ function TaskForm() {
       </button>
       <h2>Create a new Task...</h2>
 
-      <div>
-        <input
-          type="text"
-          placeholder="Task title here..."
-          className={styles.title}
-          value={taskName}
-          onChange={(e) =>
-            dispatch({
-              type: "add/taskTitle",
-              payload: e.target.value,
-            })
-          }
-        />
-      </div>
+      <input
+        type="text"
+        placeholder="Task title here..."
+        className={styles.title}
+        value={taskName}
+        onChange={(e) =>
+          dispatch({
+            type: "add/taskTitle",
+            payload: e.target.value,
+          })
+        }
+      />
 
-      <div>
-        <textarea
-          type="text"
-          placeholder="Description here..."
-          value={taskDescription}
-          className={styles.desctiption}
-          onChange={(e) =>
-            dispatch({
-              type: "add/taskDescription",
-              payload: e.target.value,
-            })
-          }
-        />
-      </div>
+      <textarea
+        type="text"
+        placeholder="Description here..."
+        value={taskDescription}
+        className={styles.desctiption}
+        onChange={(e) =>
+          dispatch({
+            type: "add/taskDescription",
+            payload: e.target.value,
+          })
+        }
+      />
 
       <div className={styles.bottomTaskElements}>
         <div className={styles.priorityContainer}>
